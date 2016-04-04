@@ -33,6 +33,7 @@ RUN apt-get install -y libsvn1
 RUN apt-get install -y curl
 
 COPY kafka-mesos /usr/local/bin/kafka-mesos
-COPY libmesos-0.24.1.so /usr/local/lib/libmesos.so
 
-CMD [ "kafka-mesos" ]
+ENTRYPOINT [ "kafka-mesos" ]
+
+COPY libmesos-0.28.0.so /usr/local/lib/libmesos.so
