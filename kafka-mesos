@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd $KAFKA_MESOS_HOME
+
+exec ./kafka-mesos.sh "$@"
