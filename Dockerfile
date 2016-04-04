@@ -36,4 +36,4 @@ COPY kafka-mesos /usr/local/bin/kafka-mesos
 
 ENTRYPOINT [ "kafka-mesos" ]
 
-COPY libmesos-0.28.0.so /usr/local/lib/libmesos.so
+COPY libmesos-0.25.0.so /usr/local/lib/libmesos.so
