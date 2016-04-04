@@ -8,4 +8,4 @@ Mesos Library: embedded mesos-0.24.1
 
 ## Sample Usage
 
-    docker run -it --rm --name kafka-mesos coderfi/kafka-mesos sh -c 'kafka-mesos scheduler --master=zk://192.168.99.100:2181/mesos --zk=192.168.99.100:2181 --api=http://192.168.99.100:7000'
+    docker run -it --rm --name kafka-mesos coderfi/kafka-mesos kafka-mesos scheduler --master=zk://192.168.99.100:2181/mesos --zk=192.168.99.100:2181 --api=http://192.168.99.100:7000
