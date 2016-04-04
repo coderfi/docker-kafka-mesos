@@ -2,7 +2,7 @@
 
 Builds a [kafka-mesos](https://github.com/mesos/kafka/tree/master) docker image.
 
-Base Docker: [cogniteev:java8](https://hub.docker.com/r/cogniteev/oracle-java)
+Base Docker: [cogniteev/oracle-java:java8](https://hub.docker.com/r/cogniteev/oracle-java)
 
 Mesos Library: embedded mesos-0.24.1
 
