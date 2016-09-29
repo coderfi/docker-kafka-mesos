@@ -9,3 +9,5 @@ Mesos Library: embedded mesos-0.28.0
 ## Sample Usage
 
     docker run -it --rm --name kafka-mesos kafka-mesos scheduler --master=zk://192.168.99.100:2181/mesos --zk=192.168.99.100:2181 --api=http://192.168.99.100:7000
+
+[![](https://images.microbadger.com/badges/image/coderfi/kafka-mesos.svg)](https://microbadger.com/images/coderfi/kafka-mesos "Get your own image badge on microbadger.com")
